@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkgnd"
+    tools:context="me.garybaker.shakeaquote.shakeaquote.Shake">
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="#678aee"
+        android:id="@+id/quote"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+        android:layout_weight="1.46" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:textSize="15dp"
+            android:textColor="#678aee"
+            android:id="@+id/quoter"
+            android:layout_alignParentBottom="true"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="200px"
+            android:layout_weight="1.46"
+            android:layout_alignParentLeft="true" />
+
+        <ImageButton
+            android:id="@+id/refreshbutton"
+            android:background="@drawable/refresh"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="5dp"
+            android:rotation="36"
+            android:scaleType="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
